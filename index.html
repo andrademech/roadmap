@@ -5,27 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Tela login</title>
+    <title>Tela Clima Tempo</title>
 </head>
 <body>
-    <div class="main-login">
-        <div class="left-login">
-            <h1>Faça login <br> e entre para o nosso time!</h1>
-            <img src="business-risk-animate.svg" class="lef-login-image" alt="imagem">
-        </div>
-        <div class="right-login">
-            <div class="card-login">
-                <h1>LOGIN</h1>
-                <div class="textfield">
-                    <label for="usuario">Usuário</label>
-                    <input type="text" name="usuario" placeholder="Usuário">
-                </div>
-                <div class="textfield">
-                    <label for="senha">Senha</label>
-                    <input type="password" name="senha" placeholder="Senha">
-                </div>
-                <button class="btn-login">Login</button>
+
+    
+    <div class="content">
+        <div class="slides">
+            <input type="radio" name="slide" id="slide1" checked>
+            <input type="radio" name="slide" id="slide2">
+            <input type="radio" name="slide" id="slide3">
+            <input type="radio" name="slide" id="slide4">
+            <input type="radio" name="slide" id="slide5">
+            
+            <div class="slide s1">
+                <img src="1.jpg" alt="imagem01">
             </div>
+            <div class="slide">
+                <img src="2.jpg" alt="imagem02">
+            </div>
+            <div class="slide">
+                <img src="3.jpg" alt="imagem03">
+            </div>
+            <div class="slide">
+                <img src="4.jpg" alt="imagem04">
+            </div>
+            <div class="slide">
+                <img src="5.jpg" alt="imagem06">
+            </div>
+        </div>
+        <div class="navigation">
+            <label class="bar" for="slide1"></label>
+            <label class="bar" for="slide2"></label>
+            <label class="bar" for="slide3"></label>
+            <label class="bar" for="slide4"></label>
+            <label class="bar" for="slide5"></label>
         </div>
     </div>
 </body>
