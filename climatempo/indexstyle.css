@@ -1,0 +1,47 @@
+body {
+    color: #000;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin: 0;
+}
+
+#main {
+    background: aquamarine;
+    height: 100vh;
+}
+
+.menu-geral {
+    background: bisque;
+    align-items: center;
+    background-color: #0080cd;
+    display: flex;
+    height: 80px;
+    position: relative;
+    z-index: 9999;
+    width: 100%;
+}
+
+.menu-superior {
+    background: burlywood;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-inferior {
+    background: blueviolet;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-painel {
+    border: 0;
+    box-sizing: border-box;
+    margin: 0;
+    outline: none;
+    padding: 0;
+    display: 0;
+}
