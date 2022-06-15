@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tela Clima Tempo</title>
+</head>
+<body>
+    <div id="main">
+        <header class="menu-superior">
+            <ul>
+                <li class="btn-menu">
+                    <img src="./img/round_hamburger_menu_burger_icon_132782.svg" alt="menu" width="35px" height="50px">
+                    <ul>
+                        <li>Previsão</li>
+                        <li>Clima</li>
+                        <li>Chuva</li>
+                    </ul>
+                </li>
+                <li>
+                    <input type="search" placeholder="Busque por uma cidade..." class="barra-pesquisa"/>
+                </li>
+                <li>
+                    Botão(login)
+                </li>
+            </ul>
+        </header>
+        <div class="menu-inferior">
+            <ul>
+                <li class="text-left">
+                    Clima e Previsão do Tempo
+                </li>
+                <li class="text-right">
+                    João Pessoa, PB / 15°C
+                </li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="left-content">
+                <div>
+                    <h2>Tempo agora em João Pessoa/PB</h2>
+                </div>
+                <div class="sol-div">imagem sol</div>
+            </div>
+            <div class="right-content">
+                <div class="content-slides">
+                    <div class="slides">
+                        <input type="radio" name="slide" id="slide1" checked>
+                        <input type="radio" name="slide" id="slide2">
+                        <input type="radio" name="slide" id="slide3">
+                        <input type="radio" name="slide" id="slide4">
+                        <input type="radio" name="slide" id="slide5">
+
+                        <div class="slide s1">
+                            <img src="/1.jpg" alt="imagem01">
+                        </div>
+                        <div class="slide">
+                            <img src="/2.jpg" alt="imagem02">
+                        </div>
+                        <div class="slide">
+                            <img src="/3.jpg" alt="imagem03">
+                        </div>
+                        <div class="slide">
+                            <img src="/4.jpg" alt="imagem04">
+                        </div>
+                        <div class="slide">
+                            <img src="/5.jpg" alt="imagem06">
+                        </div>
+                    </div>
+                    <div class="navigation">
+                        <label class="bar" for="slide1"></label>
+                        <label class="bar" for="slide2"></label>
+                        <label class="bar" for="slide3"></label>
+                        <label class="bar" for="slide4"></label>
+                        <label class="bar" for="slide5"></label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
