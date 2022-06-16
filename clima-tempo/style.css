@@ -24,7 +24,6 @@ body {
     width: 100%;
     height: 40px;
     position: relative;
-    justify-content: space-around;
     color: #fff;
 }
 
@@ -63,7 +62,7 @@ li {
 }
 
 .menu-inferior li{
-    padding: 0 250px;
+    padding: 0 0px;
 }
 
 .barra-pesquisa {
