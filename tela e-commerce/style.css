@@ -18,6 +18,7 @@ body {
   font-family: "Source Sans Pro";
   text-rendering: optimizelegibility;
   -webkit-font-smoothing: antialiased;
+  display: block;
 }
 
 body {
@@ -25,10 +26,11 @@ body {
 }
 
 .main {
-  display: flex;
   background-color: black;
-  width: 100vw;
-  justify-content: center;
+  width: 90%;
+  max-width: 1080px;
+  margin: auto;
+  display: flex;
 }
 
 .right-side {
@@ -43,10 +45,92 @@ body {
   width: 50%;
   justify-content: center;
   align-items: center;
-  height: 500px;
+  height: 60rem;
   display: flex;
   background-color: aliceblue;
-  margin: 10px 30px;
-  border-radius: 10px;
+  margin: 1rem 3rem;
+  border-radius: 1rem;
   flex-direction: column;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  justify-content: space-evenly;
+  margin: 1rem;
+}
+
+.menu-inferior {
+  width: 100%;
+  position: relative;
+}
+
+header {
+  position: absolute;
+  top: 1.5rem;
+}
+
+/* .container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.content {
+  width: 60px;
+  height: 60px;
+  flex: 1 1 10px;
+  margin: 0 10px;
+}
+*/
+img {
+  max-width: 7rem;
+} 
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 1rem;
+}
+
+.content {
+  margin: 3rem;
+}
+
+.logo-nike {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.carrousel {
+  background-color: cadetblue;
+  width: 90%;
+  height: 250px;
+  margin: 1.5rem;
+  border-radius: 1rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+justify-content: space-between;
+}
+
+.arrow-left > img{
+  transform: rotate(180deg); 
+}
+
+@media (max-width: 630px) {
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
