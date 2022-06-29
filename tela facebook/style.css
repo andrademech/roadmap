@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-family: "Source Sans Pro";
+}
+
+.main {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+}
+
+.left-side {
+  width: 50vw;
+  height: 50vw;
+  padding-top: 20%;
+  padding-left: 15%;
+}
+
+.left-side > h2 {
+  padding-left: 6%;
+}
+
+.right-side {
+  width: 60vw;
+  height: 50vw;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.right-side > h3 {
+  position: absolute;
+  margin-right: 20%;
+  margin-top: 20%;
+}
+
+.card-input {
+  width: 20vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer ul {
+  width: 30vw;
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+}
