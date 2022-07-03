@@ -3,3 +3,31 @@
 *{
     font-family: 'M PLUS 1 Code', sans-serif;
 }
+
+body {
+    background-color: #FFDBCB;
+    height: 100vh;
+}
+
+.borda-list {
+    background-color: #FFF;
+    width: 50vw;
+    height: 89vh;
+    border-radius: 10px;
+    margin-left: 25%;
+}
+
+.linha-Today, .linha-tomorrow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#modal-center{
+    background-color: #FFF;
+    width: 30%;
+    height: 30%;
+    margin-top: 15%;
+    margin-left: 40%;
+    opacity: 0.5;
+}
