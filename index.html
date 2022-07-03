@@ -1,13 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To-do List</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.14.3/dist/css/uikit.min.css" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="main">
+        <div class="borda-list">
+            <h1>Tasks</h1>
+            <button>Adicionar task</button>
+            <div class="list">
+                <h2>Today</h2>
+                <a href="#" class="uk-icon-button" uk-icon="plus-circle"></a>
+                <ul id="lista"></ul>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.14.3/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.14.3/dist/js/uikit-icons.min.js"></script>
 </body>
 </html>
