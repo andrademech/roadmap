@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Oswald", sans-serif;
+  transition: 0.3s;
 }
 
 .theme {
@@ -58,16 +59,16 @@ main {
 }
 
 .theme:checked {
-    background: #333;
+    background: #000;
 }
   
 .dark {
     color: white;
-    background: #444;
-    transition: 0.5s;
+    background: #000;
+    transition: 0.3s;
 }
 
 .dark button{
     background-color: aquamarine;
-    transition: 0.5s;
+    transition: 0.3s;
 }
