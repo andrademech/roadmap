@@ -59,12 +59,15 @@ main {
 
 .theme:checked {
     background: #333;
-  }
+}
   
-  .dark {
+.dark {
     color: white;
     background: #444;
-  }
-  .dark button{
+    transition: 0.5s;
+}
+
+.dark button{
     background-color: aquamarine;
-  }
+    transition: 0.5s;
+}
